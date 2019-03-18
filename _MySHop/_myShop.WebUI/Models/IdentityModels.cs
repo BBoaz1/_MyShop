@@ -29,5 +29,7 @@ namespace _myShop.WebUI.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<_MyShop.Core.Models.Product> Products { get; set; }
     }
 }
